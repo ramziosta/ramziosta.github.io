@@ -1,0 +1,58 @@
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ramzi Osta</title>
+        <link rel="stylesheet" href="index.css">
+        <link src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+        <link src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        
+    </head>
+
+    <body>
+        <nav id="nav">
+                <ul>
+                    <li><a class="active" href="resume.html">Resume</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                  </ul>
+             </nav>  
+             <div id="background">
+            <div id="circle">
+                <div id="square">
+                    <a href="contact.html"><img id="logo" href="index.html" src="/media/ramzi.jpg" alt="mypicLogo" onclick="dothis()" onmouseover="mouseOver()" onmouseup="mouseUp()"></a>
+                </div>
+                          
+            
+            </div>
+
+            <div id="square2"></div>
+            <div id ="rectangle"></div>
+        </div>
+
+
+
+
+
+       
+         <div id="lang">
+            <h1 lang="ar" title="hello" dir="rtl" id ="arabic">أهلا</h1>
+            <h1  id="en">Hello</h1>
+            <h1 lang="es" title="hello" id="esp">Hola</h1>
+         </div> 
+         
+      <script >
+      const trix = document.getElementById("logo");
+console.log(trix);
+function mouseOver(){
+    trix.filter = "filter: sepia(100%)";
+}
+      </script>
+    </body>
+</html>
+
+  
