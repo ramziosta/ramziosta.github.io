@@ -331,7 +331,7 @@
       right: 1rem;
       top: 2rem;
       background: transparent;
-      background-image: url(../img/icon-hamburger.svg);
+      background-image: url(./icon-hamburger.svg);
       background-repeat: no-repeat;
       width: 1.5rem;
       aspect-ratio: 1;
@@ -339,7 +339,7 @@
     }
   
     .mobile-nav-toggle[aria-expanded="true"] {
-      background-image: url(../img/icon-hamburger-closed.svg);
+      background-image: url(./icon-hamburger-closed.svg);
     }
     .large-button {
       top: -10rem;
