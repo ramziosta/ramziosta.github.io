@@ -1,0 +1,15 @@
+.main {
+  text-align: center;
+  place-items: center;
+}
+
+ul {
+  list-style: none;
+  line-height: 2rem;
+}
+img {
+  width: 2.5rem;
+  margin: 1rem;
+  text-align: center;
+  place-items: center;
+}

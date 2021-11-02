@@ -1,0 +1,30 @@
+body {
+  font-family: var(--ff-sans-normal);
+  font-size: var(--fs-400);
+  /* color: hsl( var(--clr-white) );
+    background-color: hsl( var(--clr-dark) ); */
+}
+
+.logo {
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 0 0.25em;
+  aspect-ratio: 1;
+  text-decoration: none;
+}
+#logo {
+  text-decoration: none;
+}
+
+#project {
+  display: inline-block;
+  padding: 5px;
+  margin-left: 50px;
+  width: 400px;
+  height: 200px;
+}
+#resume #work {
+  color: black;
+  background-color: #bbbbbb;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramzi Osta</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../LandingPage/design.css" />
+    <link rel="stylesheet" href="../LandingPage/index.css" />
+    <link rel="stylesheet" href="../LandingPage/reset.css" />
+    <link rel="stylesheet" href="./projects.css" />
+    
+
+  </head>
+  <body class="home bg-dark text-white">
+    <header class="primary-header flex">
+      <div>
+        <h1>
+          <a class="logo text-dark bg-gold fs-500 ff-sans-cond uppercase letter-spacing-1" id="logo"      href="##">RO</a>
+        </h1>
+      </div>
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+        <span class="sr-only" aria-expanded="false">Menu</span>
+      </button>
+      <nav>
+        <ul
+          id="primary-navigation" nav-visible="false" class="primary-navigation underline-indicators flex">
+          <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"     >About</a>
+          <li>
+            <a class="ff-sans-cond uppercase text-white letter-spacing-2"
+              href="##">Resume</a>
+          </li>
+          <li class="active">
+            <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html">Projects</a>
+          </li>
+          <li >
+            <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html">Work</a>
+          </li>
+          <li>
+            <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="grid-container  ">
+      <h1 class="numbered-title text-gold ">Projects</h1>
+      
+      <picture hidden id="PacMan-image">
+        <img src="./PacMan1.png" alt="PacMan">
+      </picture>
+      <picture id="EvilEyes-image">
+        <img src="./evilEyes.jpeg" alt="evilEyes">
+      </picture>
+      <picture hidden id="BusTracker-image">
+        <img src="./BusTracker.jpeg" alt="busTracker">
+      </picture>
+
+      
+      
+      <div class="tab-list underline-indicators flex" role="tablist" aria-label="destination list">
+          <button aria-selected="true" role="tab" aria-controls="EvilEyes-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="0" data-image="EvilEyes-image">Evil Eyes</button>
+          <button aria-selected="false" role="tab" aria-controls="PacMan-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1" data-image="PacMan-image">PacMan</button>
+          <button aria-selected="false" role="tab" aria-controls="BusTracker-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1" data-image="BusTracker-image">Bus Tracker</button>
+      </div>
+      <!-- Evil Eyes -->
+      <article hidden class="container grid-container--home" id="EvilEyes-tab" tabindex="0"  role="tabpanel">
+        <h2 class="fs-800 uppercase text-gold ff-serif">Evil Eyes</h2>
+        <div>
+          <h3 class="text-accent fs-600 uppercase"><a class="pacman text-white bg-raspberry" href="https://github.com/ramziosta/evil-eyes/blob/main/index.html" target="_blank">The Game</a></h3>
+      </div>
+        <pre>
+          Evil eye
+          I'll keep you by my side
+          This evil eye
+          Has powers I require
+          Your strange magic may
+          Keep me from harm's way
+          I've witnessed, eye
+          Its mystery at play
+        </pre>
+        
+  
+      </article>
+       <!-- PacMan -->
+       <article hidden class="grid-container--home container " id="PacMan-tab" tabindex="0"  role="tabpanel">
+        <h2 class="fs-800 uppercase ff-serif">PacMan</h2>
+  
+        <p>This is the game where the player controls PacMan who travels inside a maze trying to eat all the dots while avoiding the colorful ghosts.
+
+          You're not going to play the full PacMan game in this activity. However, you will be viewing a feature of this game, which displays and moves PacMan from one side of the screen to the other.</p>
+        
+        <div class="destination-meta flex">
+            <div>
+              <h3 class="text-accent fs-600 uppercase"><a class="pacman text-white bg-gold" 
+                href="https://github.com/ramziosta/Pacman/index.html/ "  target="_blank">The Game</a></h3>
+          </div>
+        </div>
+      </article>  
+      <!-- Bus Tracker -->
+      <article hidden  id="BusTracker-tab" tabindex="0"  role="tabpanel">
+        <h2 class="fs-800 uppercase ff-serif">Bus Tracker</h2>
+  
+        <p>The app animate and add features to a map view of a Boston bus route.</p>
+        
+    <div class="destination-meta flex">
+      <div>
+        <h3 class="text-accent fs-600 uppercase"><a class="pacman text-white bg-lavander" href="https://github.com/ramziosta/Bus-Tracker-App/blob/main/index.html" target="_blank">The Map</a></h3>
+    </div>
+  </div>
+      </article>
+    </main>
+    <script src="../LandingPage/index.js"></script>                
+    <script src="./projects.js"></script>  
+  </body>
+</html>
