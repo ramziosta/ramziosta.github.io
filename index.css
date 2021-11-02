@@ -1,0 +1,94 @@
+body{
+     font-family: var(--ff-sans-normal);
+     font-size: var(--fs-400);
+     /* color: hsl( var(--clr-white) );
+     background-color: hsl( var(--clr-dark) ); */
+ }
+ 
+
+.logo{
+    position: relative;
+    display: grid;
+    place-items: center;
+    padding: 0 0.25em;
+    aspect-ratio: 1;
+    text-decoration: none;
+}
+#logo{
+    text-decoration: none;
+}
+
+
+/* ----------------------------- */
+/* Page specific background      */
+/* ----------------------------- */
+/* Home */
+
+.home{
+    z-index: -1;
+    background-image: url(../img/DarkBeach.jpeg);
+    background-size:cover; 
+    background-position: bottom center;
+}
+
+h1{
+    padding-top: 0.2em ;
+    padding-bottom:0.1em;
+    display: inline-block;      
+}
+
+.text-raspberry{
+    text-shadow: -2px 4px 8px hsl( var(--clr-raspberry));
+}
+
+h3{
+    padding-top: 0.5em ;
+}
+
+#lang {
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 0px;
+  }
+  
+  #arabic {
+    animation: pulse 3s ease infinite alternate,
+      nudge 5s linear infinite alternate;
+  }
+  
+  @keyframes pulse {
+    0%,
+    100% {
+      color: rgb(75, 75, 75);
+    }
+    10% {
+      color: rgba(143, 9, 31, 0.7);
+    }
+  }
+  
+  @keyframes nudge {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(50px, 0);
+    }
+  
+    80% {
+      transform: translate(-50px, 0);
+    }
+  }
+  #en {
+    animation: pulse 2s ease infinite alternate,
+      nudge 2s linear infinite alternate;
+  }
+  
+  #esp {
+    animation: pulse 4s ease infinite alternate,
+      nudge 3s linear infinite alternate;
+  }
+  
+  @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  }
