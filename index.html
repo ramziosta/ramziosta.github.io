@@ -1,58 +1,63 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ramzi Osta</title>
-        <link rel="stylesheet" href="index.css">
-        <link src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
-        <link src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-        
-    </head>
 
-    <body>
-        <nav id="nav">
-                <ul>
-                    <li><a class="active" href="resume.html">Resume</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    
-                  </ul>
-             </nav>  
-             <div id="background">
-            <div id="circle">
-                <div id="square">
-                    <a href="contact.html"><img id="logo" href="index.html" src="/media/ramzi.jpg" alt="mypicLogo" onclick="dothis()" onmouseover="mouseOver()" onmouseup="mouseUp()"></a>
-                </div>
-                          
-            
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramzi Osta</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./design.css" />
+    <link rel="stylesheet" href="./reset.css" />
+</head>
+<body class="home">
 
-            <div id="square2"></div>
-            <div id ="rectangle"></div>
+    <header class="primary-header flex">
+        <div>
+        <h1><a class="logo text-dark bg-gold fs-500 ff-sans-cond uppercase letter-spacing-1" id="logo" href="##">RO</a></h1>
         </div>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+    <nav>
+        <ul id="primary-navigation" nav-visible="false" class="primary-navigation underline-indicators flex">
+            <li class=><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html">About</a>
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html">Resume</a>
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html">Projects</a>
+            <li ><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html">Work</a>
+            </li>
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html">Contact</a>
+        </ul>
+    </nav>
+    </header>
 
-
-
-
-
-       
-         <div id="lang">
+    <div class="grid-container grid-container--home">
+        <div>
+          <h3 class="uppercase letter-spacing-1 fs-700 text-raspberry">Hello World</h2>
+         <h1 id="name" class="ff-sans-cond uppercase letter-spacing-1 fs-900   "><span class="r bg-gold">R</span ><span class="fs-00 text-white">amzi </span></h1>
+            
+        <h1 id="name" class="ff-sans-cond uppercase letter-spacing-1 fs-900   "><span class="o  bg-gold" >O</span><span class="text-white">sta</span></h1>
+        <h3 id="name" class=" ff-sans-cond uppercase letter-spacing-1 fs-600 text-grey2">Web Developer</h3>
+        <h3 id="name" class=" ff-sans-cond uppercase letter-spacing-1 fs-600 text-grey">Designer</h3>
+         
+        </div>
+        <div id="lang" class="grid-container2 ">
             <h1 lang="ar" title="hello" dir="rtl" id ="arabic">أهلا</h1>
             <h1  id="en">Hello</h1>
             <h1 lang="es" title="hello" id="esp">Hola</h1>
          </div> 
-         
-      <script >
-      const trix = document.getElementById("logo");
-console.log(trix);
-function mouseOver(){
-    trix.filter = "filter: sepia(100%)";
-}
-      </script>
-    </body>
-</html>
+        <div>
+          <a href="#" class="large-button uppercase ff-sans-serif text-grey bg-green" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ramziosta?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;">contact Me</a>
+        </div>
+      </div>
 
-  
+      
+<script src="./index.js"></script>
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+
+</body>
+</html>
