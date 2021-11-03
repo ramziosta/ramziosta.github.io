@@ -1,0 +1,74 @@
+input[type="text"],
+[type="email"],
+[type="phone-number"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+#contact, #survey {
+  background: hsl(var(--clr-dark));
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+#checkbox {
+  background: hsl(var(--clr-dark));
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+#dropdown,
+#radio,
+#comments {
+  margin-bottom: 40px;
+  padding: 20px;
+  font-size: large;
+  color: white;
+  background: hsl(var(--clr-dark));
+}
+.button {
+  background: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#form {
+  background: black;
+  margin: 0 auto;
+}
+
+#comment {
+  position: relative;
+  margin-left: 10px;
+}
+
+#contact{
+    border-top: hsl(var(--clr-lavander)) solid 10px;
+    border-left: hsl(var(--clr-lavander)) solid 10px;
+}
+
+.btn-close{
+   left: -50rem;
+}
+
+#survey{
+    border-left: hsl(var(--clr-lavander)) solid 10px;
+    text-align: center;
+}
+
+#footer{
+    height: 20rem;
+}
+
+a{
+  text-decoration: none;
+}
