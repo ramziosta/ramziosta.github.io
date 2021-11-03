@@ -334,6 +334,18 @@ select {
 .logo {
     margin: 2.5rem;
   }
+.logo{
+    position: relative;
+    display: grid;
+    place-items: center;
+    padding: 0 0.25em;
+    aspect-ratio: 1;
+    text-decoration: none;
+}
+#logo{
+    text-decoration: none;
+}
+
 
 .primary-header {
     justify-content: space-between;
