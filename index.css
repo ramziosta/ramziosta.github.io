@@ -882,3 +882,9 @@ margin: 0 auto;
   height: 15vw;
   object-fit: cover;
 }
+
+.icon{
+    width: 2.5rem;
+    margin: 1rem;
+    text-align: center;
+  }
