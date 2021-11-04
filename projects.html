@@ -35,114 +35,127 @@
         </ul>
     </nav>
     </header>
-    <main class="container text-white">
-        <div class="core">
-            <h2 class="text-raspberry">Core Competency</h4>
-            <ul id="resume">
-                <li>
-                    Problem Solving and Communication
-                </li>
-                <li>
-                    Programming and Software Development
-                </li>
-                <li>
-                    Design and UX/UI Development
-                </li>
-                <li>
-                    Staff Management and Training
-                </li>
-                <li>
-                    Labor Schedualing and Budgeting
-                </li>
-                <li>
-                    Time Management and Schedualing
-                </li>
-            </ul>                             
-        </div>
+  
+  <main id="main" class="grid-container grid-container--destination flow">
+    <h1 class="text-raspberry">Projects</h1>
+    
+    <picture id="moon-image">
+      
+      <img src="assets/destination/image-moon.png" alt="bus tracker">
+    </picture>
+    <picture hidden id="mars-image">
+      
+      <img src="assets/destination/image-mars.png" alt="PacMan">
+    </picture>
+    <picture hidden id="europa-image">
+     
+      <img src="assets/destination/image-europa.png" alt="evil eyes">
+    </picture>
+    <picture hidden id="titan-image">
+    
+      <img src="assets/destination/image-titan.png" alt="work">
+    </picture>
+    
+    
+    <div class="tab-list underline-indicators flex" role="tablist" aria-label="destination list">
+        <button aria-selected="true" role="tab" aria-controls="moon-tab" class="uppercase ff-sans-cond text-lavander letter-spacing-2" tabindex="0" data-image="moon-image">Bus Tracker</button>
+        <button aria-selected="false" role="tab" aria-controls="mars-tab" class="uppercase ff-sans-cond text-lavander letter-spacing-2" tabindex="-1" data-image="mars-image">PacMan</button>
+        <button aria-selected="false" role="tab" aria-controls="europa-tab" class="uppercase ff-sans-cond text-lavander letter-spacing-2" tabindex="-1" data-image="europa-image">Evil Eyes</button>
+        <button aria-selected="false" role="tab" aria-controls="titan-tab" class="uppercase ff-sans-cond text-lavander letter-spacing-2" tabindex="-1" data-image="titan-image">work</button>
+    </div>
+
+    <!-- Bus Tracker -->
+    <article class="destination-info flow" id="moon-tab" tabindex="0" role="tabpanel">
+        <h2 class="fs-800 uppercase ff-sans-serif text-gold">Bus Tracker</h2>
+
+        <p>This code provides information for MBTA bus data to determine stops between Harvard and MIT.
+          This code originate from an assignment in Week #8 of MIT's MERN Coding Bootcamp.
+          The challenge was to animate and add features to a map view of a Boston bus route.
+          Then, you need to and add an animated marker on the map to highlight the bus routes. For more about the topic please read about
+        <a class="text-lavander" style="text-decoration:none;" href="https://developer.mozilla.org/en-US/docs/Web/API">Web APIs</a><span class="text-lavander"> & </span>
+        <a class="text-lavander" style="text-decoration:none;" href="https://developers.google.com/maps/documentation/javascript/reference/map">Maps</a></p>
+          
+      <div class="destination-meta flex">
+      <div>
+        <h3 class="text-raspberry fs-200 ">Maps and APIs</h3>
+        <p class="ff-sans-serif uppercase text-gold">Javascript</p>
+      </div>
+      <div>
+      
+        <a id="evileyes" href="https://ramziosta.github.io/Bus-Tracker-App/" class="ff-san-serif ff-sans-cond uppercase bg-raspberry text-white fs-600">Track</a>
+      </div>
+      </div>
+    </article>
+    
+    <!-- PacMan -->
+    <article hidden class="destination-info flow" id="mars-tab" tabindex="0"  role="tabpanel">
+        <h2 class="fs-800 uppercase ff-sans-serif text-gold">PacMan</h2>
+
+        <p>This is the game where the player controls PacMan who travels inside a maze trying to eat all the dots while avoiding the colorful ghosts.
+    
+            You're not going to play the full PacMan game in this App.
+          However, you will be playing a feature of this game, which displays and moves PacMan from one side of the screen to the other.
+          Sometimes chasing information online or trying to fix a code can feel like running in a maze, like PacMan. To make things easier use the link below to learn more about the
+       <a class="text-lavander" style="text-decoration:none;" href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">DOM</a>
+     </p>
+          
+        <div class="destination-meta flex">
+          <div>
+            <h3 class="text-raspberry fs-200 ">DOM Manipulation</h3>
+            <p class="ff-sans-serif uppercase text-gold">Javascript</p>
+          </div>
+          <div>
+        
+            <a id="evileyes" href="https://ramziosta.github.io/Pacman/" class="ff-san-serif ff-sans-cond uppercase bg-raspberry text-white fs-600">Play</a>
+          </div>
+      </div>
+    </article>
+    
+    <!-- Evil Eyes -->
+    <article hidden class="destination-info flow" id="europa-tab" tabindex="0"  role="tabpanel">
+        <h2 class="fs-800 uppercase ff-sans-serif text-gold">Evil Eyes</h2>
+        <iframe src="https://open.spotify.com/embed/track/3SBtXOpctmkh1jNLprHgbq?utm_source=generator" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <p> This App is a demonstration of event handlers & event lisnters in Javascript. onmouseOver is used to animate the movement of the eyes.There are plenty more to discover about this topic.
+       The track attached is about I's and eyes. Play it in the background, and check out more tracks by Róisín Murphy while reading <a class="text-lavander" style="text-decoration: none;" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events">MDN documentations</a> about the subject.
+        <pre>
+      Evil eye
+      I'll keep you by my side
+      This evil eye
+      Has powers I would prize
+      Your strange magic play
+      Keep me from harm's way
+      I've witnessed, Eye
+      It's mystery claim
+      </pre>
        
-        <div class="education">
-            <h2 class="text-raspberry">Education </h4>
-            <ul id="education">
-                <li>
-                <span class="text-grey2">CalArts: </span>Graphic Design
-                </li>
-                <li>
-                <span class="text-grey2">CalArts: </span>UX/UI Design
-                </li>
-                <li>
-                <span class="text-grey2">UofM: </span>Frontend Development and Programming
-                </li>
-                <li>
-                <span class="text-grey2">Berklee Music Of Collage: </span>Music Production
-                </li>
-                <li>
-                <span class="text-grey2">Duke University: </span>Managing Big Data with mySQL
-                </li>
-                <li>
-                <span class="text-grey2">Yarmouk University: </span>Bachelor in Chemistry/Biology
-                </li>
-            </ul>
-        </div>  
-
-        <div class="skillset">
-            <h2 class="text-raspberry">Professional skillset </h4>
-            <ul id="skillset">
-                <li>
-                <span class="text-grey2">Programming and Libraries</span>:</span> JavaScript,  HTML, CSS, Bootstrap, React, Express, Node
-                </li>
-                <li>
-                <span class="text-grey2">Databases:</span> MongoDB, MySQL, XAMPP, Firebase 
-                </li>
-                <li>
-                <span class="text-grey2">UX/UI GUI:</span> Illustrator, In-demand, Photoshop, XD, Balsamiq
-                </li>
-                <li>
-                <span class="text-grey2">Project Management: </span>Agile, Google Apps, Microsoft Office, Git
-                </li>
-                <li>
-               <span class="text-grey2">Languages: </span>English, Arabic, Spanish
-                </li>
-                <li>
-                <span class="text-grey2">Media: </span> Music production, Video Production, Photography
-                </li>
-            </ul>
+        
+       
+        <div class="destination-meta flex">
+          <div>
+            <h3 class="text-raspberry fs-200 ">Event Handlers</h3>
+            <p class="fs-sans-serif uppercase text-gold">Javascript</p>
+          </div>
+          <div>
+      
+            <a id="evileyes" href="https://ramziosta.github.io/evil-eyes/" class="ff-san-serif ff-sans-cond uppercase bg-raspberry text-white fs-600"> Watch </a>
+          </div>
         </div>
+    </article>
 
-        <div class="tools">
-            <h2 class="text-raspberry">Software and Tools</h4>
-            <div class="adobe container flex">
-                <img src="./img/Ai.svg">
-                <img src="./img/XD.svg">
-                <img src="./img/Id.svg">
-                <img src="./img/PS.svg">
-                <img src="./img/DW.svg">
-            </div>
-            <div class="production container flex">
-                <img src="./img/Ableton.png">
-                <img src="./img/PL.png">
-                <img src="./img/FCP.png">
-            </div>
-            <ul id="tools">
-                <li>
-                Mackbook M1
-                </li>
-                <li>
-                iPad Pro M1
-                </li>
-                <li>
-                Wacom Tablet
-                </li>
-                <li>
-                Sony A7iii
-                </li>
-                <li>
-                Push 2
-                </li>
-            </ul>
-        </div>
-   <footer style="height: 20rem;" id="footer">
-    </footer> 
-    </main>
-    <script src="index.js"></script>
-    </body>
+     <!-- Work -->
+     <article hidden class="destination-info flow" id="titan-tab" tabindex="0"  role="tabpanel">
+        <h2 class="fs-800 uppercase ff-sans-serif text-gold">Work</h2>
+
+  <p>I am currently working on a few projects. I am interested in knowing what you are working on. Sketches and ideas are available on codepen.io</p>
+ 
+  <a id="evileyes" href="work.html" class="ff-san-serif ff-sans-cond uppercase bg-green text-white fs-600">Work</a>
+</article>
+
+  </main>
+  
+<body>
+
+
+  
+</body>
 </html>
