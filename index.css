@@ -639,20 +639,6 @@ select {
         justify-content: start;
     }
     
-    .grid-container--crew {
-        grid-template-areas: 
-            '. title title .'
-            '. content image .'
-            '. tabs image .';
-    }
-    
-    .grid-container--crew > .dot-indicators {
-        justify-self: start;
-    }
-    
-    /* .grid-container--crew > picture {
-        align-self: end;
-    } */
 
 }
 
@@ -805,6 +791,7 @@ h3{
     color: white;
     background: hsl(var(--clr-dark));
   }
+
   .button {
     background: white;
     color: black;
@@ -855,7 +842,9 @@ h3{
   width: 400px;
   height: 200px;
 }
-#resume #work {
+
+#resume,
+#work {
   color: black;
   background-color: #bbbbbb;
 }
@@ -877,6 +866,7 @@ p{
   margin: 0 auto;
   place-items: center;
 }
+
 .card-img-top{ 
 margin: 0 auto;
   width: 100%;
