@@ -51,9 +51,40 @@
           <a href="#" class="large-button uppercase ff-sans-serif text-white bg-green" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ramziosta?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;">Connect With Me</a>
         </div>
       </div>
+<div>
+          <a href="#" class="bg-raspberry uppercase ff-sans-serif text-white bg-green" style="padding:.2rem; border-radius:4px;" onclick="myFunction()">Click4Pic</a>
+          <a href="#" style="padding:.2rem; border-radius:4px;" class="bg-gold uppercase ff-sans-serif text-white bg-green" onclick="myFunction2()">Click4Video</a>
+        </div>
 
+        <div >
+          <img id="myDiv" src="./20181110_090332.jpg" style="width:50%; display:none;">
+        </div>
+        
+        <div>
+          <iframe   style="display:none;" id="myDiv2" width="100%" height="100%" src="https://www.youtube.com/embed/Ps5iD-Z4LJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    
       
 <script src="./index.js"></script>
+    <script>
+  function myFunction() {
+  var x = document.getElementById("myDiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("myDiv2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
 
