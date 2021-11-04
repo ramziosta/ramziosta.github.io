@@ -415,7 +415,7 @@ select {
     }
     
     .mobile-nav-toggle[aria-expanded="true"] {
-        background-image: url(./icon-close.svg);
+        background-image: url(./icon-hamburger-closed.svg);
     }
     
     .mobile-nav-toggle:focus-visible {
