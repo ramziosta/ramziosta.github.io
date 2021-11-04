@@ -672,6 +672,8 @@ h3{
     padding: 0 0.25em;
     aspect-ratio: 1;
     text-decoration: none;
+    border-left: .4rem solid hsl(var(--clr-gold));
+    border-bottom: .4rem solid hsl(var(--clr-gold));
   }
 
   .aboutme {
