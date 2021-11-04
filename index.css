@@ -738,11 +738,7 @@ h3{
     background: green;
   }
   
-  iframe {
-    width: 250px;
-    height: 80px;
-    border: none;
-  }
+  
   
   .player {
     display: inline-block, grid;
@@ -768,8 +764,8 @@ h3{
     line-height: 2rem;
   }
   img {
-    width: 2.5rem;
-    margin: 1rem;
+    width: 110%;
+    margin: .5rem;
     text-align: center;
     place-items: center;
   }
@@ -830,6 +826,7 @@ h3{
   #contact{
       border-top: hsl(var(--clr-lavander)) solid 10px;
       border-left: hsl(var(--clr-lavander)) solid 10px;
+      background-color: rgb(36, 36, 36);
   }
   
   .btn-close{
@@ -837,6 +834,7 @@ h3{
   }
   
   #survey{
+    background-color: rgb(36, 36, 36);
       border-left: hsl(var(--clr-lavander)) solid 10px;
       text-align: center;
   }
@@ -879,7 +877,7 @@ p{
   place-items: center;
 }
 .card-img-top{ 
-  margin: 0 auto;
+margin: 0 auto;
   width: 100%;
   height: 15vw;
   object-fit: cover;
