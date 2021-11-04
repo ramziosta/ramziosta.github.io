@@ -1,3 +1,6 @@
+// navigation //
+
+
 const nav = document.querySelector(".primary-navigation");
 const navToggle = document.querySelector(".mobile-nav-toggle");
 
@@ -12,7 +15,27 @@ navToggle.addEventListener("click", () => {
         navToggle.setAttribute("aria-expanded", false);
     }
 })
+// hide video and picture//
+  function myFunction() {
+          var x = document.getElementById("myDiv");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
 
+        function myFunction2() {
+          var x = document.getElementById("myDiv2");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+
+
+// projects navigation tab//
 
 const tabList = document.querySelector('[role="tablist"]');
 const tabs = tabList.querySelectorAll('[role="tab"]');
