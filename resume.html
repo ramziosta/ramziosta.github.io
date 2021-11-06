@@ -1,114 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramzi Osta</title>
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet">
+      
   <!-- Our custom CSS -->
   <link rel="stylesheet" href="index.css">
   <title>Ramzi Osta</title>
   <script src="index.js" defer></script>
+
 </head>
+
 <body class="home">
-  
-    <header class="primary-header flex">
-        <div>
+  <header class="primary-header flex">
+    <div>
         <h1><a class="logo text-dark bg-white fs-500 ff-sans-cond uppercase letter-spacing-1" id="logo" href="index.html">RO</a></h1>
         </div>
-        <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
     <nav>
-        <ul id="primary-navigation" nav-visible="false" class="primary-navigation underline-indicators flex">
-            <li class=><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="./about.html">About</a>
-            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="./resume.html">Resume</a>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="./about.html">About</a>
+            <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="./resume.html">Resume</a>
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="./projects.html">Projects</a>
             <li ><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="./work.html">Work</a>
             </li>
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="./contact.html">Contact</a>
         </ul>
     </nav>
-    </header>
-    <main class="container text-white">
-        <div class="core">
-            <h2 class="text-raspberry">Core Competency</h4>
-            <ul id="resume">
-                <li>
-                    Problem Solving and Communication
-                </li>
-                <li>
-                    Programming and Software Development
-                </li>
-                <li>
-                    Design and UX/UI Development
-                </li>
-                <li>
-                    Staff Management and Training
-                </li>
-                <li>
-                    Labor Schedualing and Budgeting
-                </li>
-                <li>
-                    Time Management and Schedualing
-                </li>
-            </ul>                             
-        </div>
-       
-        <div class="education">
-            <h2 class="text-raspberry">Education </h4>
-            <ul id="education">
-                <li>
-                <span class="text-grey2">CalArts: </span>Graphic Design
-                </li>
-                <li>
-                <span class="text-grey2">CalArts: </span>UX/UI Design
-                </li>
-                <li>
-                <span class="text-grey2">UofM: </span>Frontend Development and Programming
-                </li>
-                <li>
-                <span class="text-grey2">Berklee Music Of Collage: </span>Music Production
-                </li>
-                <li>
-                <span class="text-grey2">Duke University: </span>Managing Big Data with mySQL
-                </li>
-                <li>
-                <span class="text-grey2">Yarmouk University: </span>Bachelor in Chemistry/Biology
-                </li>
-            </ul>
-        </div>  
+  </header>
+  
+  <main class=" container grid-container--home">
+    <div class="core">
+        <h2 class="text-raspberry">Core Competency</h4>
+        <ul id="resume">
+            <li>
+                Problem Solving and Communication
+            </li>
+            <li>
+                Programming and Software Development
+            </li>
+            <li>
+                Design and UX/UI Development
+            </li>
+            <li>
+                Staff Management and Training
+            </li>
+            <li>
+                Labor Schedualing and Budgeting
+            </li>
+            <li>
+                Time Management and Schedualing
+            </li>
+        </ul>                             
+    </div>
+   
+    <div class="education">
+        <h2 class="text-raspberry">Education </h4>
+        <ul id="education">
+            <li>
+            <span class="text-grey2">CalArts: </span>Graphic Design
+            </li>
+            <li>
+            <span class="text-grey2">CalArts: </span>UX/UI Design
+            </li>
+            <li>
+            <span class="text-grey2">UofM: </span>Frontend Development and Programming
+            </li>
+            <li>
+            <span class="text-grey2">Berklee Music Of Collage: </span>Music Production
+            </li>
+            <li>
+            <span class="text-grey2">Duke University: </span>Managing Big Data with mySQL
+            </li>
+            <li>
+            <span class="text-grey2">Yarmouk University: </span>Bachelor in Chemistry/Biology
+            </li>
+        </ul>
+    </div>  
 
-        <div class="skillset">
-            <h2 class="text-raspberry">Professional skillset </h4>
-            <ul id="skillset">
-                <li>
-                <span class="text-grey2">Programming and Libraries</span>:</span> JavaScript,  HTML, CSS, Bootstrap, React, Express, Node
-                </li>
-                <li>
-                <span class="text-grey2">Databases:</span> MongoDB, MySQL, XAMPP, Firebase 
-                </li>
-                <li>
-                <span class="text-grey2">UX/UI GUI:</span> Illustrator, In-demand, Photoshop, XD, Balsamiq
-                </li>
-                <li>
-                <span class="text-grey2">Project Management: </span>Agile, Google Apps, Microsoft Office, Git
-                </li>
-                <li>
-               <span class="text-grey2">Languages: </span>English, Arabic, Spanish
-                </li>
-                <li>
-                <span class="text-grey2">Media: </span> Music production, Video Production, Photography
-                </li>
-            </ul>
-        </div>
+    <div class="skillset">
+        <h2 class="text-raspberry">Professional skillset </h4>
+        <ul id="skillset">
+            <li>
+            <span class="text-grey2">Programming and Libraries</span>:</span> JavaScript,  HTML, CSS, Bootstrap, React, Express, Node
+            </li>
+            <li>
+            <span class="text-grey2">Databases:</span> MongoDB, MySQL, XAMPP, Firebase 
+            </li>
+            <li>
+            <span class="text-grey2">UX/UI GUI:</span> Illustrator, In-demand, Photoshop, XD, Balsamiq
+            </li>
+            <li>
+            <span class="text-grey2">Project Management: </span>Agile, Google Apps, Microsoft Office, Git
+            </li>
+            <li>
+           <span class="text-grey2">Languages: </span>English, Arabic, Spanish
+            </li>
+            <li>
+            <span class="text-grey2">Media: </span> Music production, Video Production, Photography
+            </li>
+        </ul>
+    </div>
 
-        <div class="tools">
+
+    <div class="tools">
             <h2 class="text-raspberry">Software and Tools</h4>
             <div class="adobe container flex">
                 <img class="icon" src="./Ai.svg">
@@ -122,31 +125,27 @@
                 <img class="icon" src="./PL.png">
                 <img class="icon" src="./FCP.png">
             </div>
-            <ul id="tools">
-                <li>
-                Mackbook M1
-                </li>
-                <li>
-                iPad Pro M1
-                </li>
-                <li>
-                Wacom Tablet
-                </li>
-                <li>
-                Sony A7iii
-                </li>
-                <li>
-                Push 2
-                </li>
-            </ul>
-        </div>
-   <footer style="height: 20rem;" id="footer">
-    </footer> 
-    </main>
-    <script src="index.js"></script>
-    </body>
-</html>
-
-    <script src="index.js"></script>
-    </body>
+        <ul id="tools">
+            <li>
+            Mackbook M1
+            </li>
+            <li>
+            iPad Pro M1
+            </li>
+            <li>
+            Wacom Tablet
+            </li>
+            <li>
+            Sony A7iii
+            </li>
+            <li>
+            Push 2
+            </li>
+        </ul>
+    </div>
+<footer style="height: 20rem;" id="footer">
+</footer> 
+</main>
+<script src="index.js"></script>
+</body>
 </html>
