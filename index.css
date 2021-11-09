@@ -530,7 +530,7 @@ select {
     grid-area: title;
 }
 
-/* destination layout */
+
 
 .grid-container--destination {
     --flow-space: 2rem;
@@ -565,7 +565,7 @@ select {
     font-size: 1.75rem;
 }
 
-/* crew layout */
+
 
 .grid-container--crew {
     --flow-space: 2rem;
