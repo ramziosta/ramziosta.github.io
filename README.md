@@ -1,22 +1,29 @@
 # ramziosta.github.io
-#######
-<h1>Hello<h1>
-<p>
-Welcome to my portfolio project for MITxPro, where I showcase my expertise in HTML, CSS, and JavaScript. This website is a demonstration of my skills and a platform to highlight my projects and experience.
 
-Key Features
-Utilizes Bootstrap Modal for a sleek and user-friendly contact form
-Showcases my Codepen projects using Bootstrap Cards
-Implements responsive design through media queries and custom classes
-Enhances user experience with interactive elements and animations
-Integrates JavaScript for added interactivity, such as clickable page items and hiding unwanted elements
-Technologies Used
-Bootstrap
-HTML
-CSS
-JavaScript
-Code and Documentation
-The code for this project is available for review on GitHub, and the links to Bootstrap and relevant code are conveniently located in the Bootstrap folder. If you have any questions about the code or how things work, feel free to reach out to me for clarification.
+# Ramziosta's Portfolio Project for MITxPro
+### Welcome to My Portfolio Website
+### It is one of the many demonstrations of my skills and a platform to highlight my projects and experience.
+<br>
 
-Try it out
-Check out the website here and see for yourself the power of HTML, CSS, and JavaScript.
+##### Key Features
+
+This is a portfolio website showcasing my skills and experience as a full-stack web developer. I graduated from MITxPro's Full-Stack Web Development program with MERN and have used my skills to build this website using HTML, CSS, JavaScript, and SASS.
+
+#### Technologies Used
+1- HTML
+<br>2- CSS
+<br>3- JavaScript
+<br>3- SASS
+<br>3- Calendly
+<br> 4- EmailJS
+
+#### Features
+<br>1- Responsive design for optimal viewing on all devices
+<br>2- Display of projects built during my time at MITxPro
+<br>3- Links to Codepen where I keep sketches of websites and code
+<br>4- Communication through Calendly and EmailJS
+<br>5- Interacting with the Website
+<br><br>
+To view my portfolio website, simply visit the website. Browse through my projects, see my skills and experience, and get in touch with me through the contact form. You can also find my Codepen sketches to see more of my work.
+
+Feel free to reach out with any questions or comments, and 
